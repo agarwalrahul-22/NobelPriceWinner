@@ -98,7 +98,7 @@ function FetchComponent() {
   return (
     <>
       <FilterComponent filteryear={onfilteryear} filtercat={onfiltercat}></FilterComponent>
-      <Paper
+      <div
         justifyContent="center"
         sx={{
           width: "70%",
@@ -159,7 +159,7 @@ function FetchComponent() {
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
         />
-      </Paper>
+      </div>
       </>
   );
 }
